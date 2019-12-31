@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: neo_simulation
+    relative_path: robots/mm_400/mm_400.urdf.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/mm_400.srdf
+  CONFIG:
+    author_name: neobotix
+    author_email: ros@neobotix.de
+    generated_timestamp: 1577826818
